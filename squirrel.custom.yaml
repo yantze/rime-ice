@@ -26,6 +26,10 @@ patch:
     com.jetbrains.intellij:
       ascii_mode: true
       vim_mode: true
+    fun.tw93.kaku:
+      ascii_mode: true
+      no_inline: true
+      vim_mode: true
 
   # style/color_scheme: mritd_dark             # 方案命名，不能有空格
   style:
@@ -66,6 +70,9 @@ patch:
       border_height: 6                          # 窗口边界高度，大于圆角半径才生效
       border_width: 6                           # 窗口边界宽度，大于圆角半径才生效
       border_color_width: 0
+      candidate_list_layout: linear  # 将候选词排布设为线性（横排）
+      horizontal: true               # 强制开启横排显示
+
       #font_face: "PingFangSC"                  # 候选词字体
       font_face: "YaHei Monaco Hybird"          # 候选词字体
       font_point: 16                            # 候选字词大小
